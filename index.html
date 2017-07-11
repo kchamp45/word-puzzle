@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet"  type="text/css">
+    <link href="css/styles.css" rel="stylesheet" text="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Word Puzzle</title>
+  </head>
+  <body>
+    <div class = "container">
+      <form id="word">
+        <h1>Let's play a word puzzle!</h1>
+        <div class="form-group">
+          <label for="sentence">Enter a sentence:</label>
+          <input id="sentence" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+    <div id="puzzle">
+      <h2>Here's the puzzle: </h2>
+        <p><span id="quiz"></span></p>
+    </div>
+    <div id="answer">
+      <h2>Here's the answer: </h2>
+        <p><span id="output"></span></p>
+    </div>
+  </body>
+</html>
